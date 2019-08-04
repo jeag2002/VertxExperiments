@@ -1,0 +1,7 @@
+com\tappx\vertx\AdPerfVertServerApp.class
+com\tappx\vertx\adservices\AdvertisementDispatcher.class
+com\tappx\vertx\constant\AdConstant.class
+com\tappx\vertx\services\AdEventBusServer.class
+META-INF\hk2-locator\default
+com\tappx\vertx\services\AdVertServer.class
+com\tappx\vertx\adservices\AdvertisementException.class

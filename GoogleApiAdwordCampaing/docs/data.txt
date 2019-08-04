@@ -1,0 +1,14 @@
+https://github.com/googleads/googleads-java-lib/blob/master/examples/adwords_axis/src/main/java/adwords/axis/auth/AdvancedCreateCredentialFromScratch.java
+https://github.com/googleads/googleads-java-lib
+https://developers.google.com/adwords/api/docs/guides/first-api-call
+
+https://ads.google.com/aw/overview?ocid=304470219&__c=2990010931&authuser=0&__u=7309759937
+https://developers.google.com/google-ads/api/docs/first-call/dev-token
+
+https://developers.google.com/adwords/api/docs/guides/reset-devtoken
+
+https://developers.google.com/adwords/api/docs/guides/signup
+
+https://stackoverflow.com/questions/51382958/adwords-api-authorizationerror-user-permission-denied-python
+
+https://developers.google.com/google-ads/api/docs/oauth/cloud-project
