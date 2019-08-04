@@ -1,0 +1,45 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '1.2.3'
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile "io.vertx:vertx-core:3.3.3"
+    compile "io.vertx:vertx-web:3.3.3"
+}
+
+def mainVerticle = "com.github.mwarc.realtimeauctions.AuctionServiceVerticle"
+mainClassName = "io.vertx.core.Starter"
+run {
+    args = ["run", mainVerticle]
+}
+
+jar {
+    manifest {
+        attributes 'Main-Verticle': mainVerticle
+    }
+}
+
+shadowJar {
+    classifier = 'fat'
+
+    mergeServiceFiles {
+        include 'META-INF/services/io.vertx.core.spi.VerticleFactory'
+    }
+
+    into 'webroot', {
+        from 'webroot'
+    }
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.4.1'
+}
