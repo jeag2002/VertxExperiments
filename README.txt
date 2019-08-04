@@ -12,7 +12,7 @@ Projects:
 
 DisplayPerfAdServerVert ==> Ad web generator using Vert.x
 GoogleApiAdwordCampaing ==> Ad Dispatcher using Google API
-Vertx-example ==> Microservice Example using Vert.x
+MicroserviceVertx ==> Microservice Example using Vert.x
 VertxWebExample ==> Simple web engine using Vert.x
 
 
